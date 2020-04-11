@@ -1,2 +1,6 @@
 package loops
 
+fun main() {
+
+}
+
