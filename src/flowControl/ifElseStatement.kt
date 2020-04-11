@@ -5,15 +5,15 @@ fun main() {
     print("Please enter an animal: ")
     val animal = readLine()?:"cat"
 
-    val action = if(animal == "cat") {
+    val action = if (animal == "cat")
         "feed it"
-    } else if (animal == "dog") {
+    else if (animal == "dog")
         "pet it"
-    } else if (animal == "crocodile") {
+    else if (animal == "crocodile")
         "run away"
-    } else {
+    else
         "google it"
-    }
+
     println("If you encounter a $animal you should $action")
 
     val actionWhen = when (animal) {
