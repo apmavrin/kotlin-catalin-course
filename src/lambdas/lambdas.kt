@@ -5,3 +5,9 @@
 
 package lambdas
 
+fun main() {
+
+    myLambda("Anton")
+}
+
+var myLambda = {name:String -> println("Hello, $name")}
