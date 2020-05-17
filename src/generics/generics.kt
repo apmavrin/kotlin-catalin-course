@@ -3,5 +3,5 @@
  * Mavrin Anton (anton@kotlin.space)
  */
 
-package extensions
+package generics
 
